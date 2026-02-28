@@ -176,3 +176,164 @@ export const GOING_OUTLOOK = {
     'Met Office extended outlook shows Atlantic low-pressure systems dominating',
   ],
 };
+
+// ============================================================
+//  DAY-BY-DAY GOING PREDICTIONS
+//  Your expert assessment of what the going is likely to be
+//  on each day. Update as forecasts firm up.
+// ============================================================
+export const DAY_PREDICTIONS = [
+  {
+    day: 1,
+    date: '2026-03-10',
+    name: 'Champion Day',
+    course: 'Old Course',
+    predictedGoing: 'Soft',
+    predictedDetail: 'Soft (Good to Soft in places)',
+    confidence: 'Medium',
+    goingStickRange: '5.2–5.8',
+    analysis: 'The Old Course has held up better than the New Course through February, with slightly better drainage on the higher ground. However, with further rain expected this week, the ground is likely to ride Soft. The inside rail from the top of the hill has taken the most punishment. Horses drawn wide may find marginally better ground.',
+    impactNotes: [
+      'Champion Hurdle: Soft ground will favour stamina-laden types. Those with a high cruising speed on better ground may struggle.',
+      'Arkle: Ground should be fine for the principals — most leading contenders have proven form on soft.',
+      'Supreme: Traditionally run at a strong gallop. Soft ground will make it a true test of stamina over 2 miles.',
+      'Ultima: The 3m1f trip on soft ground will be a real slog — need genuine stayers.',
+    ],
+  },
+  {
+    day: 2,
+    date: '2026-03-11',
+    name: 'Ladies Day',
+    course: 'New Course',
+    predictedGoing: 'Soft',
+    predictedDetail: 'Soft (Heavy in places)',
+    confidence: 'Medium',
+    goingStickRange: '4.8–5.4',
+    analysis: 'The New Course has been riding heavier than the Old throughout February. The low-lying areas around the bottom bend tend to cut up, and with Day 1 traffic on the shared sections, expect conditions to deteriorate. The ground around the final flight/fence is likely to be testing.',
+    impactNotes: [
+      'Champion Chase: Soft/Heavy is a significant factor at 2 miles. Pace horses may not sustain their speed. Look for strong-travelling chasers with a proven mud profile.',
+      'Brown Advisory: At 3m on heavy ground, this becomes an extreme stamina test. Expect a slow pace and late battle.',
+      'Cross Country: Already Heavy in places — this will be very testing. Experienced course specialists at a premium.',
+      'Coral Cup: Handicap on testing ground often produces big-priced winners. Go low in the weights.',
+    ],
+  },
+  {
+    day: 3,
+    date: '2026-03-12',
+    name: "St Patrick's Thursday",
+    course: 'Old Course',
+    predictedGoing: 'Soft',
+    predictedDetail: 'Soft (Heavy in places)',
+    confidence: 'Low',
+    goingStickRange: '4.6–5.2',
+    analysis: 'By Day 3, the cumulative effect of two days\' racing plus any midweek rain will have taken its toll. The Old Course will have been used on Day 1 and sections will have cut up. Expect the going to be at least Soft, possibly Heavy in the most worn areas. The clerk of the course may doll off the worst sections.',
+    impactNotes: [
+      'Stayers\' Hurdle: At 3 miles on heavy ground, stamina is everything. Only genuine stayers need apply.',
+      'Ryanair: The intermediate trip at 2m5f on soft/heavy ground means this is no longer a speed test — look for those who stay further.',
+      'Pertemps: Qualifier form on better ground is largely irrelevant. Focus on proven soft/heavy ground performers.',
+      'Plate Chase: Expect plenty of non-runners if the ground deteriorates to Heavy.',
+    ],
+  },
+  {
+    day: 4,
+    date: '2026-03-13',
+    name: 'Gold Cup Day',
+    course: 'New Course',
+    predictedGoing: 'Heavy',
+    predictedDetail: 'Heavy (Soft in places)',
+    confidence: 'Low',
+    goingStickRange: '4.0–4.8',
+    analysis: 'The worst-case scenario for the Gold Cup. The New Course will have been used on Day 2 and, with the extended forecast showing further rain midweek, conditions could be genuinely Heavy by Friday. The final hill is likely to be the defining factor — tired horses on heavy ground over 3m2½f will need to be exceptional athletes and genuine stayers.',
+    impactNotes: [
+      'Gold Cup: Heavy ground transforms the race entirely. The last half-mile up the hill on heavy ground is one of the ultimate tests in racing. Previous winners in these conditions have typically been thorough stayers rather than speed merchants.',
+      'Triumph Hurdle: Juveniles on heavy ground is a lottery. Form from France on deep ground is particularly relevant.',
+      'County Hurdle: Big-field handicap on heavy ground — chaos. Course form and proven stamina essential.',
+      'Albert Bartlett: 3 miles for novice hurdlers on heavy ground. Only the toughest survive.',
+    ],
+  },
+];
+
+// ============================================================
+//  GOING GUIDE — Explains each going type for subscribers.
+//  Educational content that adds value.
+// ============================================================
+export const GOING_GUIDE = [
+  {
+    name: 'Heavy',
+    goingStick: '< 4.5',
+    colour: '#e05252',
+    description: 'Very testing conditions with waterlogged turf. The ground is sodden and deep, requiring enormous stamina and strength. Races take significantly longer, and the emphasis shifts entirely to stamina over speed.',
+    impact: 'Favours strong, powerful gallopers who handle deep ground. Front-runners can dominate if they get a soft lead. Speed horses and those who race prominently on better ground often fail to see out their trips. Non-runner rates are highest on heavy ground.',
+    visualDesc: 'Waterlogged, standing water in patches, deep hoofprints',
+  },
+  {
+    name: 'Soft',
+    goingStick: '4.5 – 6.0',
+    colour: '#e09752',
+    description: 'Rain-affected ground that is noticeably yielding underfoot. The turf gives way significantly and horses sink into the surface. A demanding surface that tests stamina, though not as extreme as Heavy.',
+    impact: 'Suits horses with stamina in their pedigree and proven form on testing ground. Pace is reduced and horses need to be effective through the ground rather than skimming over the surface. Big-actioned gallopers often handle it well.',
+    visualDesc: 'Yielding surface, visible hoof impressions, damp but no standing water',
+  },
+  {
+    name: 'Good to Soft',
+    goingStick: '6.0 – 7.5',
+    colour: '#e0d252',
+    description: 'The most common going at Cheltenham in March. Ground has some give but retains a decent surface. The ideal middle ground that allows most horses to perform close to their best while still requiring a degree of stamina.',
+    impact: 'The most "fair" going — few horses are inconvenienced by it. Horses with a preference for either better or softer ground can generally cope. The classic Cheltenham Festival surface.',
+    visualDesc: 'Good cover of grass, slight give underfoot, springy turf',
+  },
+  {
+    name: 'Good',
+    goingStick: '7.5 – 9.0',
+    colour: '#3ecf6e',
+    description: 'Ideal racing surface with minimal give. The turf is firm enough to allow horses to stride out efficiently but with just enough cushion to protect joints. Fast but fair.',
+    impact: 'Suits speed horses and those with a quick turn of foot. Tactical races are more common as the surface allows horses to quicken. Time figures are faster and form from fast ground is more reliable.',
+    visualDesc: 'Even, well-maintained turf, minimal give, firm footing',
+  },
+  {
+    name: 'Good to Firm',
+    goingStick: '9.0 – 10.5',
+    colour: '#52e0a0',
+    description: 'Fast ground that is unusual for Cheltenham in March. Quick surface with very little give, more commonly seen in summer. The ground is dry and the turf bounces back quickly.',
+    impact: 'Favours genuine speed horses. Some trainers will withdraw horses who need a cut in the ground. Jump racing on fast ground raises welfare concerns, and the number of fallers can increase. Rare at the Festival.',
+    visualDesc: 'Dry, firm surface, virtually no give, dust possible in dry spells',
+  },
+  {
+    name: 'Firm / Hard',
+    goingStick: '> 10.5',
+    colour: '#52c0e0',
+    description: 'Extremely fast ground that is essentially drought-affected. Almost never seen at Cheltenham in March. The surface is unyielding and provides no cushion.',
+    impact: 'Racing on firm/hard ground is generally avoided in National Hunt as it increases injury risk. Meetings would likely be subject to inspection and possible abandonment if the ground reached this level.',
+    visualDesc: 'Bone-dry, cracked earth, no give whatsoever',
+  },
+];
+
+// ============================================================
+//  TRACK MAP DATA — Cheltenham course features.
+//  Used to render the SVG track map with key landmarks.
+// ============================================================
+export const TRACK_FEATURES = {
+  oldCourse: {
+    name: 'Old Course',
+    length: '1 mile 4 furlongs (round course)',
+    description: 'The original Cheltenham track, slightly sharper than the New Course. Features a stiff uphill finish of about 250 yards. The Old Course is used on Days 1 and 3 of the Festival.',
+    keyFeatures: [
+      { name: 'The Hill', desc: 'The famous uphill finish — 250 yards of rising ground that has broken many a horse. The gradient is approximately 1 in 35.' },
+      { name: 'Top of the Hill', desc: 'The highest point of the course before the final descent to the back straight. Ground here drains better than the bottom of the course.' },
+      { name: 'Bottom Bend', desc: 'Sharp left-hand turn at the lowest point. Ground tends to be heaviest here as water runs downhill and collects.' },
+      { name: 'Final Flight/Fence', desc: 'Positioned at the bottom of the hill. Tired horses on soft ground often make mistakes here.' },
+    ],
+  },
+  newCourse: {
+    name: 'New Course',
+    length: '1 mile 5 furlongs (round course)',
+    description: 'Wider and slightly more galloping than the Old Course. Used on Days 2 and 4 (including Gold Cup day). The longer home straight can suit hold-up horses.',
+    keyFeatures: [
+      { name: 'The Hill', desc: 'Same punishing finish as the Old Course — the final climb is the defining feature of Cheltenham regardless of which track is used.' },
+      { name: 'Extended Home Straight', desc: 'Longer than the Old Course run-in, giving horses more time to be produced for their challenge.' },
+      { name: 'Bottom of Course', desc: 'The lowest-lying section. Drainage has historically been an issue here, and it\'s where the ground rides heaviest.' },
+      { name: 'Cross Country Course', desc: 'A separate course used for the Cross Country Chase on Day 2. Includes banks, ditches and varied terrain. Always rides heavier than the main tracks.' },
+    ],
+  },
+  drainageNotes: 'Cheltenham\'s drainage was upgraded in 2019 but the course still rides soft in prolonged wet spells. The hill section drains best. The flat sections at the bottom of the course retain moisture longest.',
+};
