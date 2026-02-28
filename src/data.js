@@ -260,7 +260,7 @@ export const DAY_PREDICTIONS = [
 export const GOING_GUIDE = [
   {
     name: 'Heavy',
-    goingStick: '< 4.5',
+    goingStick: '1.0 – 2.9',
     colour: '#e05252',
     description: 'Very testing conditions with waterlogged turf. The ground is sodden and deep, requiring enormous stamina and strength. Races take significantly longer, and the emphasis shifts entirely to stamina over speed.',
     impact: 'Favours strong, powerful gallopers who handle deep ground. Front-runners can dominate if they get a soft lead. Speed horses and those who race prominently on better ground often fail to see out their trips. Non-runner rates are highest on heavy ground.',
@@ -268,7 +268,7 @@ export const GOING_GUIDE = [
   },
   {
     name: 'Soft',
-    goingStick: '4.5 – 6.0',
+    goingStick: '3.0 – 4.9',
     colour: '#e09752',
     description: 'Rain-affected ground that is noticeably yielding underfoot. The turf gives way significantly and horses sink into the surface. A demanding surface that tests stamina, though not as extreme as Heavy.',
     impact: 'Suits horses with stamina in their pedigree and proven form on testing ground. Pace is reduced and horses need to be effective through the ground rather than skimming over the surface. Big-actioned gallopers often handle it well.',
@@ -276,7 +276,7 @@ export const GOING_GUIDE = [
   },
   {
     name: 'Good to Soft',
-    goingStick: '6.0 – 7.5',
+    goingStick: '5.0 – 6.9',
     colour: '#e0d252',
     description: 'The most common going at Cheltenham in March. Ground has some give but retains a decent surface. The ideal middle ground that allows most horses to perform close to their best while still requiring a degree of stamina.',
     impact: 'The most "fair" going — few horses are inconvenienced by it. Horses with a preference for either better or softer ground can generally cope. The classic Cheltenham Festival surface.',
@@ -284,7 +284,7 @@ export const GOING_GUIDE = [
   },
   {
     name: 'Good',
-    goingStick: '7.5 – 9.0',
+    goingStick: '7.0 – 8.9',
     colour: '#3ecf6e',
     description: 'Ideal racing surface with minimal give. The turf is firm enough to allow horses to stride out efficiently but with just enough cushion to protect joints. Fast but fair.',
     impact: 'Suits speed horses and those with a quick turn of foot. Tactical races are more common as the surface allows horses to quicken. Time figures are faster and form from fast ground is more reliable.',
@@ -292,7 +292,7 @@ export const GOING_GUIDE = [
   },
   {
     name: 'Good to Firm',
-    goingStick: '9.0 – 10.5',
+    goingStick: '9.0 – 10.9',
     colour: '#52e0a0',
     description: 'Fast ground that is unusual for Cheltenham in March. Quick surface with very little give, more commonly seen in summer. The ground is dry and the turf bounces back quickly.',
     impact: 'Favours genuine speed horses. Some trainers will withdraw horses who need a cut in the ground. Jump racing on fast ground raises welfare concerns, and the number of fallers can increase. Rare at the Festival.',
@@ -300,7 +300,7 @@ export const GOING_GUIDE = [
   },
   {
     name: 'Firm / Hard',
-    goingStick: '> 10.5',
+    goingStick: '11.0 – 15.0',
     colour: '#52c0e0',
     description: 'Extremely fast ground that is essentially drought-affected. Almost never seen at Cheltenham in March. The surface is unyielding and provides no cushion.',
     impact: 'Racing on firm/hard ground is generally avoided in National Hunt as it increases injury risk. Meetings would likely be subject to inspection and possible abandonment if the ground reached this level.',

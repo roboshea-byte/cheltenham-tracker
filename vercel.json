@@ -1,0 +1,16 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/going.js": {
+      "maxDuration": 15
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/going",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
